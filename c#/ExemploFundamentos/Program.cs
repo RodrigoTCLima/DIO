@@ -1,11 +1,8 @@
 ﻿using ExemploFundamentos.Models;
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
-// Cast - Casting
-//int a = Convert.ToInt32("5");
-int a = int.Parse("5");
-
-
+int inteiro = 5;
+string a = inteiro.ToString();
 Console.WriteLine(a);
 
 
@@ -17,6 +14,12 @@ Console.WriteLine(a);
 
 
 
+
+// Cast - Casting
+//int a = Convert.ToInt32(null);
+//int a = int.Parse("5");
+
+//Console.WriteLine(a);
 
 
 // int a = 10;
