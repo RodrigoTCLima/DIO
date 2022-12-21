@@ -1,18 +1,18 @@
 ﻿using ExemploFundamentos.Models;
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
-int inteiro = 5;
-string a = inteiro.ToString();
-Console.WriteLine(a);
 
+//cast implicito
+// int a = 5;
+// double b = a;
+int a = 5;
+long b = a;
+Console.WriteLine(b);
 
-
-
-
-
-
-
-
+// cast string
+// int inteiro = 5;
+// string a = inteiro.ToString();
+// Console.WriteLine(a);
 
 
 // Cast - Casting
