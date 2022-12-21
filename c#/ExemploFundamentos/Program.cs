@@ -2,12 +2,25 @@
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
 
+
+string a ="15-";
+
+//int b = 0;
+
+int.TryParse(a, out int b);
+Console.WriteLine(b);
+
+
+
+
+
+
 //cast implicito
 // int a = 5;
 // double b = a;
-int a = 5;
-long b = a;
-Console.WriteLine(b);
+// int a = 5;
+// long b = a;
+// Console.WriteLine(b);
 
 // cast string
 // int inteiro = 5;
