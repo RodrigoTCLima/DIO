@@ -1,8 +1,42 @@
 ﻿using ExemploFundamentos.Models;
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+// Cast - Casting
+//int a = Convert.ToInt32("5");
+int a = int.Parse("5");
+
+
+Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+
+
+// int a = 10;
+// int b = 20;
+
+// int c = a + b;
+
+//c = c + 5;
+
+//c += 5;
+
+//c -= 5;
+
+//c *= 5;
+
+// Console.WriteLine(c);
+
+
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 
