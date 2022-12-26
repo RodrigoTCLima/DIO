@@ -1,23 +1,58 @@
 ﻿using ExemploFundamentos.Models;
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
+bool choveu = false;
+bool estaTarde = false;
 
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
-
-switch(letra)
+if (!choveu && !estaTarde)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("vogal");
-        break;
-    default:
-        Console.WriteLine("Não é vogal");
-        break;
+    Console.WriteLine("vou pedalar");
 }
+else
+{
+    Console.WriteLine("vou pedalar outro dia");
+}
+
+// bool possulPresencaMinima = true;
+// double media = 8.5;
+// 
+// if (possulPresencaMinima && media >= 7)
+// {
+    // Console.WriteLine("Aprovado!");
+// }
+// else
+// {
+    // Console.WriteLine("Reprovado!");
+// }
+
+// bool ehMaiorDeIdade = false;
+// bool possuiAutorizacaoDoResponsavel = false;
+// 
+// if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+// {
+    // Console.WriteLine("Entrada Liberada!");
+// }
+// else
+// {
+    // Console.WriteLine("Entrada não liberada");
+// }
+
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine();
+// 
+// switch(letra)
+// {
+    // case "a":
+    // case "e":
+    // case "i":
+    // case "o":
+    // case "u":
+        // Console.WriteLine("vogal");
+        // break;
+    // default:
+        // Console.WriteLine("Não é vogal");
+        // break;
+// }
 
 
 // if(letra == "a" ||
