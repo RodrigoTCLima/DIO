@@ -2,18 +2,28 @@
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
 
+int quantidadeEmEstoque = 3;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-string a ="15-";
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
 
+if(possivelVenda)
+{
+    Console.WriteLine("Venda realizada.");
+}
+else
+{
+    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
+}
+
+
+// string a ="15-";
 //int b = 0;
-
-int.TryParse(a, out int b);
-Console.WriteLine(b);
-
-
-
-
-
+// int.TryParse(a, out int b);
+// Console.WriteLine(b);
 
 //cast implicito
 // int a = 5;
