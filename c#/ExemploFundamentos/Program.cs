@@ -1,17 +1,28 @@
 ﻿using ExemploFundamentos.Models;
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
-bool choveu = false;
-bool estaTarde = false;
+Calculadora calc = new Calculadora();
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("vou pedalar");
-}
-else
-{
-    Console.WriteLine("vou pedalar outro dia");
-}
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50);
+// calc.Multiplicar(15, 45);
+// calc.Dividir(2, 2);
+// calc.Potencia(3, 3);
+calc.Seno(30);
+calc.Cosseno(30);
+calc.Tangente(30);
+
+// bool choveu = false;
+// bool estaTarde = false;
+// 
+// if (!choveu && !estaTarde)
+// {
+    // Console.WriteLine("vou pedalar");
+// }
+// else
+// {
+    // Console.WriteLine("vou pedalar outro dia");
+// }
 
 // bool possulPresencaMinima = true;
 // double media = 8.5;
