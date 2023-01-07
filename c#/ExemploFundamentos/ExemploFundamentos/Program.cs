@@ -1,22 +1,35 @@
 ﻿using ExemploFundamentos.Common.Models;
-using System;
+
 //Nome da Classe, Atributos e Métodos começa com Maiuscula, variavel com minuscula
 
-List<string> listaString = new List<string>();
 
-listaString.Add("SP");
-listaString.Add("BA");
-listaString.Add("MG");
-listaString.Add("RJ");
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Instancia da classe pessoa
+Pessoa p = new Pessoa();
+
+// Atribui o nome e idade para pessoas
+p.Nome = "Buta";
+p.Idade = 20;
+
+// Apresenta pessoa
+p.Apresentar();
 
 
-listaString.Add("SC");
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// List<string> listaString = new List<string>();
+
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RJ");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 
-listaString.Remove("MG");
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// listaString.Add("SC");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+
+// listaString.Remove("MG");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 
 // Console.WriteLine("Percorrendo a lista com o FOR");
