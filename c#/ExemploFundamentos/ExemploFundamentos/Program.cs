@@ -7,13 +7,23 @@
 Pessoa p = new Pessoa();
 
 // Atribui o nome e idade para pessoas
+// passando o nome Buta
+// e passando a idade 20
+
+/* 
+    Atribui o nome e idade para pessoas
+    passando o nome Buta
+    e passando a idade 20
+*/
 p.Nome = "Buta";
 p.Idade = 20;
 
 // Apresenta pessoa
 p.Apresentar();
 
-
+Calculadora c = new Calculadora();
+c.Somar(3, 2);
+c.Subtrair(3, 4);
 
 // List<string> listaString = new List<string>();
 
@@ -35,7 +45,7 @@ p.Apresentar();
 // Console.WriteLine("Percorrendo a lista com o FOR");
 // for(int contador = 0; contador < listaString.Count; contador++)
 // {
-    // Console.WriteLine($"Posição Nª {contador} - {listaString[contador]}");
+// Console.WriteLine($"Posição Nª {contador} - {listaString[contador]}");
 // }
 // 
 // 
@@ -43,8 +53,8 @@ p.Apresentar();
 // int contadorForeach = 0;
 // foreach(string item in listaString)
 // {
-    // Console.WriteLine($"Posição Nª {contadorForeach} - {item}");
-    // contadorForeach++;
+// Console.WriteLine($"Posição Nª {contadorForeach} - {item}");
+// contadorForeach++;
 // }
 
 // int[] arrayInteiros = new int[4];
@@ -64,7 +74,7 @@ p.Apresentar();
 // Console.WriteLine("Percorrendo o Array com o FOR");
 // for(int contador = 0; contador < arrayInteiros.Length; contador++)
 // {
-    // Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+// Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
 // }
 
 
@@ -74,8 +84,8 @@ p.Apresentar();
 // Console.WriteLine("Percorrendo o Array com o FOREACH");
 // foreach(int valor in arrayInteiros)
 // {
-    // Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
-    // contadorForeach++;
+// Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
+// contadorForeach++;
 // }
 
 // 
@@ -90,39 +100,39 @@ p.Apresentar();
 // 
 // while(exibirMenu)
 // {
-    // Console.Clear();
-    // Console.WriteLine("Digite sua opção:");
-    // Console.WriteLine("1 - Cadastrar cliente");
-    // Console.WriteLine("2 - Buscar cliente");
-    // Console.WriteLine("3 - Apagar cliente");
-    // Console.WriteLine("4 - Encerrar");
+// Console.Clear();
+// Console.WriteLine("Digite sua opção:");
+// Console.WriteLine("1 - Cadastrar cliente");
+// Console.WriteLine("2 - Buscar cliente");
+// Console.WriteLine("3 - Apagar cliente");
+// Console.WriteLine("4 - Encerrar");
 // 
-    // opcao = Console.ReadLine();
+// opcao = Console.ReadLine();
 // 
-    // switch(opcao)
-    // {
-        // case "1":
-            // Console.WriteLine("Cadastro de cliente");
-            // break;
+// switch(opcao)
+// {
+// case "1":
+// Console.WriteLine("Cadastro de cliente");
+// break;
 // 
-        // case "2":
-            // Console.WriteLine("Buscar de cliente");
-            // break;
-        // 
-        // case "3":
-            // Console.WriteLine("Apagar cliente");
-            // break;
+// case "2":
+// Console.WriteLine("Buscar de cliente");
+// break;
 // 
-        // case "4":
-            // Console.WriteLine("Encerrar");
-            // exibirMenu = false;
+// case "3":
+// Console.WriteLine("Apagar cliente");
+// break;
+// 
+// case "4":
+// Console.WriteLine("Encerrar");
+// exibirMenu = false;
 //            Environment.Exit(0);
-            // break;
-        // 
-        // default:
-            // Console.WriteLine("Opção inválida");
-            // break;
-    // }
+// break;
+// 
+// default:
+// Console.WriteLine("Opção inválida");
+// break;
+// }
 // }
 // 
 // Console.WriteLine("O programa se encerrou");
@@ -157,20 +167,20 @@ p.Apresentar();
 // int contador = 1;
 // 
 // while (contador <= 10){
-    // Console.WriteLine($"{contador}º Execução: {numero} x {contador} = {numero * contador}");
-    // contador++;
+// Console.WriteLine($"{contador}º Execução: {numero} x {contador} = {numero * contador}");
+// contador++;
 // 
-    // if(contador == 6)
-    // {
-    // break;
-    // }
+// if(contador == 6)
+// {
+// break;
+// }
 // }
 
 // int numero = 5;
 // 
 // for (int contador = 0; contador <= 10; contador++)
 // {
-    // Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// Console.WriteLine($"{numero} x {contador} = {numero * contador}");
 // }
 // Calculadora calc = new Calculadora();
 
@@ -204,11 +214,11 @@ p.Apresentar();
 // 
 // if (!choveu && !estaTarde)
 // {
-    // Console.WriteLine("vou pedalar");
+// Console.WriteLine("vou pedalar");
 // }
 // else
 // {
-    // Console.WriteLine("vou pedalar outro dia");
+// Console.WriteLine("vou pedalar outro dia");
 // }
 
 // bool possulPresencaMinima = true;
@@ -216,11 +226,11 @@ p.Apresentar();
 // 
 // if (possulPresencaMinima && media >= 7)
 // {
-    // Console.WriteLine("Aprovado!");
+// Console.WriteLine("Aprovado!");
 // }
 // else
 // {
-    // Console.WriteLine("Reprovado!");
+// Console.WriteLine("Reprovado!");
 // }
 
 // bool ehMaiorDeIdade = false;
@@ -228,11 +238,11 @@ p.Apresentar();
 // 
 // if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
 // {
-    // Console.WriteLine("Entrada Liberada!");
+// Console.WriteLine("Entrada Liberada!");
 // }
 // else
 // {
-    // Console.WriteLine("Entrada não liberada");
+// Console.WriteLine("Entrada não liberada");
 // }
 
 // Console.WriteLine("Digite uma letra");
@@ -240,16 +250,16 @@ p.Apresentar();
 // 
 // switch(letra)
 // {
-    // case "a":
-    // case "e":
-    // case "i":
-    // case "o":
-    // case "u":
-        // Console.WriteLine("vogal");
-        // break;
-    // default:
-        // Console.WriteLine("Não é vogal");
-        // break;
+// case "a":
+// case "e":
+// case "i":
+// case "o":
+// case "u":
+// Console.WriteLine("vogal");
+// break;
+// default:
+// Console.WriteLine("Não é vogal");
+// break;
 // }
 
 
@@ -259,37 +269,37 @@ p.Apresentar();
 //    letra == "o" ||
 //    letra == "u")
 // {
-    // Console.WriteLine("vogal");
+// Console.WriteLine("vogal");
 // }
 // else
 // {
-    // Console.WriteLine("Não é uma vogal");
+// Console.WriteLine("Não é uma vogal");
 // }
 
 
 // if (letra == "a")
 // {
-    // Console.WriteLine("vogal");
+// Console.WriteLine("vogal");
 // }
 // else if (letra == "e")
 // {
-    // Console.WriteLine("vogal");
+// Console.WriteLine("vogal");
 // }
 // else if (letra == "i")
 // {
-    // Console.WriteLine("vogal");
+// Console.WriteLine("vogal");
 // }
 // else if (letra == "o")
 // {
-    // Console.WriteLine("vogal");
+// Console.WriteLine("vogal");
 // }
 // else if (letra == "u")
 // {
-    // Console.WriteLine("vogal");
+// Console.WriteLine("vogal");
 // }
 // else
 // {
-    // Console.WriteLine("Não é vogal");
+// Console.WriteLine("Não é vogal");
 // }
 
 
@@ -305,15 +315,15 @@ p.Apresentar();
 // 
 // if(quantidadeCompra == 0)
 // {
-    // Console.WriteLine("Venda inválida");
+// Console.WriteLine("Venda inválida");
 // }
 // else if(possivelVenda)
 // {
-    // Console.WriteLine("Venda realizada.");
+// Console.WriteLine("Venda realizada.");
 // }
 // else
 // {
-    // Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
+// Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
 // }
 
 
