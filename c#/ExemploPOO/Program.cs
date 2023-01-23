@@ -1,7 +1,11 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
 
-Computador c = new Computador();
-Console.WriteLine(c.ToString());
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(3, 9));
+
+// Computador c = new Computador();
+// Console.WriteLine(c.ToString());
 
 // Pessoa p1 = new Pessoa("Leonardo");
 // Aluno a1 = new Aluno("Eduardo");
