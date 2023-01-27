@@ -1,0 +1,4 @@
+USE ExemploDB;
+
+ALTER TABLE Produtos
+ADD UNIQUE(Nome)
