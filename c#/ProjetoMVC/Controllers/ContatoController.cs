@@ -55,7 +55,7 @@ namespace ProjetoMVC.Controllers
 
             contatoBanco.Nome = contato.Nome;
             contatoBanco.Telefone = contato.Telefone;
-            contatoBanco.Ativo = contatoBanco.Ativo;
+            contatoBanco.Ativo = contato.Ativo;
 
             _context.Contatos.Update(contatoBanco);
             _context.SaveChanges();
@@ -80,6 +80,17 @@ namespace ProjetoMVC.Controllers
             if(contato == null) return RedirectToAction(nameof(Index));
 
             return View(contato);
+        }
+
+        [HttpPost]
+        public IActionResult Deletar(Contato contato)
+        {
+            var contatoBanco = _context.Contatos.Find(contato.Id);
+
+            _context.Contatos.Remove(contatoBanco);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }
